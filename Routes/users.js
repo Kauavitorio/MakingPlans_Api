@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
-//const UsersController = require('../controllers/userController')
+const userControler = require('../Controllers/Users');
 
 //  Route to do User Register
-//router.post('/signUp', UsersController.SignUp)
+router.post('/signUp', userControler.SignUp)
 
 require('../Classes/ConsoleHelper').DisplayClassInicialized(__filename);
 module.exports = router
