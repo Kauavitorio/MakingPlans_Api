@@ -23,7 +23,7 @@
     "environments": {
       "test": {
         "scripts": {
-          "test": ["npm --version", "git --version"]
+          "test": "npm start"
         }
       }
     }
