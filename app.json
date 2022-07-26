@@ -1,3 +1,5 @@
 {
-    "stack": "heroku-22"
+    "stack": "heroku-22",
+    "test": "mocha --recursive test",
+    "bump-version": "npm version patch"
 }
