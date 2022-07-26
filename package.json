@@ -4,7 +4,8 @@
   "description": "Api for Making Plans Project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --recursive test",
+    "bump-version": "npm version patch",
     "start": "nodemon server.js"
   },
   "keywords": [
@@ -26,6 +27,7 @@
     "grep": "^0.1.0",
     "handlebars": "^4.7.7",
     "jsonwebtoken": "^8.5.1",
+    "mocha": "^10.0.0",
     "morgan": "^1.10.0",
     "multer": "^1.4.2",
     "mysql": "^2.18.1",
