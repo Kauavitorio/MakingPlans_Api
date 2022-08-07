@@ -29,9 +29,8 @@
     "jsonwebtoken": "^8.5.1",
     "mocha": "^10.0.0",
     "morgan": "^1.10.0",
+    "mssql": "^8.1.2",
     "multer": "^1.4.2",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.2.5",
     "nodemailer": "^6.6.0"
   },
   "devDependencies": {

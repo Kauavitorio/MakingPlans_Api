@@ -30,6 +30,12 @@ app.get('/', async (request, response) => {
     response.redirect('https://uspery.com/')
 });
 
+//#endregion
+
+//  User Route
+app.use('/user', userRoute);
+
+
 //  When rote not found, joing here:
 app.use((req, res, next) => {
     const erro = new Error('Not found');
@@ -45,8 +51,6 @@ app.use((error, req, res, next) => {
         }
     });
 });
-
-//#endregion
 
 //#endregion
 
