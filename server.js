@@ -2,8 +2,8 @@ console.log('\n------------------------------------------')
 const _HTTP = require('http');
 const _APP = require('./app');
 
-//  Server can have 2 ports (port informed by the provider or 3000)
-const _PORT = process.env.PORT || 3000;
+//  Server can have 2 ports (port informed by the server or 5051)
+const _PORT = process.env.SV_PORT || 5051;
 
 //  Building from app-based server
 const _SERVER = _HTTP.createServer(_APP);
